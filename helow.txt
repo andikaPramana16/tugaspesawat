@@ -1,0 +1,4 @@
+Directive	Fungsi
+@extends	Menggunakan layout dari file Blade lain (biasanya file layout induk seperti layouts/app.blade.php)
+@yield	Tempat kosong (slot) di file layout yang bisa diisi oleh file yang mewarisi layout-nya
+@section	Mengisi konten ke dalam slot @yield di layout induk
